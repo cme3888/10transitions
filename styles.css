@@ -1,0 +1,95 @@
+header {
+    margin: 0px;
+    padding: 0px;
+    height:150px;
+    width:960px;
+    background-color: gray;
+    box-shadow: 5px 5px 3px black;
+    outline-color: black;
+    font-family: Helvetica;
+    font-style: oblique;
+
+
+}
+.headline {
+    float:right;
+}
+
+
+.box {
+    border-style: hidden;
+    border-width: 1px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box img{
+    width:150px;
+    height:150px;
+}
+.box:hover {
+    background-color: white;
+    width:300px;
+    height:300px;
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+.box:hover img {
+    width: 300px;
+    height: 300px;
+}
+.menuButton {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  background-color: gray;
+  left: 5px;
+  top: 5px;
+  height: 26px;
+  color: white;
+  border-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 1px black;
+  padding: 2px 4px;
+  border: solid 1px black;
+}
+
+.menuButton:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color:white;
+  color:black;
+  box-shadow: 2px 2px 1px black;
+}
+.textbox {
+  transition: background-color 0.5s ease;
+  background-color: red;
+  width:960px;
+  outline-color: orange;
+
+}
+.textbox:hover {
+  background-color: green;
+  box-shadow: 5px 5px 3px black;
+  outline-color: black;
+}
+.textbox2 {
+  width:960px;
+  background-color: orange;
+   -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s,transform 2s;
+}
+.textbox2:hover{
+  width:960px;
+  height:300px;
+
+}
